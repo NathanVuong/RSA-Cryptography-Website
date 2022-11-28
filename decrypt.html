@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RSA Decryption </title>
+</head>
+<link href="styles.css" rel="stylesheet">
+<body>
+    <h1 class = "title-text"> RSA Decryption </h1>
+    <hr>
+
+    <p> Enter public prime product: (<b>N</b>): </p>
+
+    <div class = "form-center">
+        <form id="number">
+            <input type="number" id = "nNumber">
+        </form>
+    </div>
+
+    <p> Enter private decryption code: (<b>d</b>): </p>
+
+    <div class = "form-center">
+        <form id="number">
+            <input type="number" id = "dNumber">
+        </form>
+    </div>
+
+    <p> Enter ciphertext: </p>
+
+    <div class = "form-center">
+        <form id="number">
+            <input type="number" id = "ciphertext">
+        </form>
+    </div>
+    <br>
+
+    <div class = "form-center">
+        <form id="Submit">
+            <input type="button" value="Submit" class = "submit-button">
+        </form>
+    </div>
+
+    <p id = "Message"> Message: </p>
+
+    <div> 
+        <a href="home.html">
+            <button class = "back-button"> Go Back </button> 
+        </a>
+    </div>
+
+    <main> 
+        <script src ="decrypt.js"></script>
+    </main>
+</body>
+</html>

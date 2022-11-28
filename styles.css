@@ -1,0 +1,53 @@
+body {
+    background-image: url("images/HD-wallpaper-plain-white-abstract.jpg");
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form-center {
+    display:flex;
+    justify-content: center;
+}
+
+.home-button {
+    display: block;
+    width: 100%;
+    
+    margin: 15px, 15px;
+    padding: 20px;
+    border-width: 2px;
+    border-radius: 10px;
+
+    background-color: #ADD8E6;
+
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.back-button {
+    position: fixed;
+    bottom: 8px;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.submit-button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.button-wrapper {
+    margin-bottom: 30px;
+}

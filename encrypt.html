@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RSA Encryption </title>
+</head>
+<link href="styles.css" rel="stylesheet">
+<body>
+    <h1 class = "title-text"> RSA Encryption </h1>
+    <hr>
+
+    <p> Enter public prime product: (<b>N</b>): </p>
+
+    <div class = "form-center">
+        <form id="number">
+            <input type="number" id = "nNumber">
+        </form>
+    </div>
+
+    <p> Enter public encryption exponent: (<b>e</b>): </p>
+
+    <div class = "form-center">
+        <form id="number">
+            <input type="number" id = "eNumber">
+        </form>
+    </div>
+
+    <p> Enter numeric message: </p>
+
+    <div class = "form-center">
+        <form id="number">
+            <input type="number" id = "message">
+        </form>
+    </div>
+    <br>
+
+    <div class = "form-center">
+        <form id="Submit">
+            <input type="button" value="Submit" class = "submit-button">
+        </form>
+    </div>
+
+    <p id = "Ciphertext"> Ciphertext: </p>
+
+    <div> 
+        <a href="home.html">
+            <button class = "back-button"> Go Back </button> 
+        </a>
+    </div>
+
+    <main> 
+        <script src ="encrypt.js"></script>
+    </main>
+</body>
+</html>

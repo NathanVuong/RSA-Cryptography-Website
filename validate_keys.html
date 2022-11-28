@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RSA Validate Keys </title>
+</head>
+<link href="styles.css" rel="stylesheet">
+<body>
+    <h1 class = "title-text"> RSA Validate Keys </h1>
+    <hr>
+
+    <p> Enter first prime number (<b>p</b>): </p>
+
+    <div class = "form-center">
+      <form id="number">
+        <input type="number" id = "pNumber">
+      </form>
+    </div>
+    <br>
+    
+    <p> Enter second prime number (<b>q</b>): </p>
+
+    <div class = "form-center">
+      <form id="number">
+        <input type="number" id = "qNumber">
+      </form>
+    </div>
+    <br>
+
+    <p> Enter encryption exponent (<b>e</b>): </p>
+
+    <div class = "form-center">
+      <form id="number">
+        <input type="number" id = "eNumber">
+      </form>
+    </div>
+    <br>
+
+    <div class = "form-center">
+      <form id="Submit">
+          <input type="button" value="Submit" class = "submit-button">
+      </form>
+    </div>
+
+    <p id = "Result"> Result: </p>
+    
+    <div> 
+        <a href="home.html">
+            <button class = "back-button"> Go Back </button> 
+        </a>
+    </div>
+    <main> 
+        <script src ="validate.js"></script>
+    </main>
+</body>
+</html>
